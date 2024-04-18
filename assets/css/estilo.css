@@ -1,0 +1,46 @@
+.encabezado {
+    background-color: #10a89c;
+    border-bottom: 1px rebeccapurple solid;
+}
+
+.pie {
+    background-color: #10a89c;
+    color: white;
+    border-top: 1px rebeccapurple solid;
+}
+
+main {
+    padding-top: 6%;
+    background-color: #10a89b5d;
+}
+
+footer {
+    padding-top:5%;
+    background-color: #10a89b5d;
+}
+
+.foto{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* border: 1px dashed rgba(61, 60, 60, 0.705) */
+}
+
+.hipervinculo{
+    color: white;
+    font-size: 24px;
+}
+
+.titulo {
+    color: rgb(135, 71, 160);
+    font-weight: bolder;
+    text-shadow: 1px 1px #fff;
+}
+
+.logo {
+    border-radius: 52%;
+}
+
+.articulo {
+    border-radius: 10%;
+}
