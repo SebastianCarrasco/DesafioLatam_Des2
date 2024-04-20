@@ -1,12 +1,13 @@
 .encabezado {
-    background-color: #10a89c;
     border-bottom: 1px rebeccapurple solid;
+    background-image: url("../img/fondo.png");
+    background-color: #10a89b;
 }
 
 .pie {
     background-color: #10a89c;
     color: white;
-    border-top: 1px rebeccapurple solid;
+    border-top: 1px rgb(165, 47, 198) solid;
 }
 
 main {
@@ -23,7 +24,6 @@ footer {
     margin-top: 1%;
     margin-left: 2%;
     margin-right: 2%;
-    /* border: 1px dashed rgba(61, 60, 60, 0.705) */
 }
 
 .hipervinculo{
@@ -32,9 +32,19 @@ footer {
 }
 
 .titulo {
-    color: rgb(135, 71, 160);
+    color: rgb(165, 47, 198);
     font-weight: bolder;
     text-shadow: 1px 1px #fff;
+}
+
+.subtitulo {
+    font-weight: bolder;
+    text-shadow: 1px 1px #fff;
+    color: #12837a;
+}
+
+.subt {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .logo {
@@ -43,4 +53,13 @@ footer {
 
 .articulo {
     border-radius: 10%;
+}
+
+.precio {
+    font-style: italic;
+    color: rgb(116, 110, 110);
+}
+
+.descripcion {
+    font-size: 1.8rem;
 }
