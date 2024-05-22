@@ -2,6 +2,27 @@
     border-bottom: 1px rebeccapurple solid;
     background-image: url("../img/fondo.png");
     background-color: #10a89b;
+    max-height: 80px; /* Define una altura máxima para el encabezado */
+    display: flex;
+    align-items: center;
+    padding: 10px 0; /* Ajusta el padding según sea necesario */
+}
+
+.logo-header {
+    height: 100px; /* Tamaño original del logo */
+    transform: scale(5); /* Escala el logo a 1.5 veces su tamaño original */
+    transform-origin: center left; /* Fija el punto de origen de la transformación */
+}
+
+.subtitulo {
+    font-weight: bolder;
+    text-shadow: 1px 1px #fff;
+    color: #12837a;
+    margin-left: 20px; /* Añade un margen para separar el texto del logo */
+}
+
+.subt {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .pie {
@@ -16,35 +37,19 @@ main {
 }
 
 footer {
-    padding-top:5%;
+    padding-top: 5%;
     background-color: #10a89b5d;
 }
 
-.foto{
+.foto {
     margin-top: 1%;
     margin-left: 2%;
     margin-right: 2%;
 }
 
-.hipervinculo{
+.hipervinculo {
     color: white;
     font-size: 24px;
-}
-
-.titulo {
-    color: rgb(165, 47, 198);
-    font-weight: bolder;
-    text-shadow: 1px 1px #fff;
-}
-
-.subtitulo {
-    font-weight: bolder;
-    text-shadow: 1px 1px #fff;
-    color: #12837a;
-}
-
-.subt {
-    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .logo {
