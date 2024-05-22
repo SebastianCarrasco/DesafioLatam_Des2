@@ -1,70 +1,70 @@
 .encabezado {
-    border-bottom: 1px rebeccapurple solid;
-    background-image: url("../img/fondo.png");
-    background-color: #10a89b;
+    border-bottom: 1px rebeccapurple solid; /* Agrega un borde inferior púrpura sólido */
+    background-image: url("../img/fondo.png"); /* Establece una imagen de fondo */
+    background-color: #10a89b; /* Establece un color de fondo */
     max-height: 80px; /* Define una altura máxima para el encabezado */
-    display: flex;
-    align-items: center;
+    display: flex; /* Usa flexbox para el layout */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
     padding: 10px 0; /* Ajusta el padding según sea necesario */
 }
 
 .logo-header {
     height: 100px; /* Tamaño original del logo */
-    transform: scale(5); /* Escala el logo a 1.5 veces su tamaño original */
+    transform: scale(5); /* Escala el logo a 5 veces su tamaño original */
     transform-origin: center left; /* Fija el punto de origen de la transformación */
 }
 
 .subtitulo {
-    font-weight: bolder;
-    text-shadow: 1px 1px #fff;
-    color: #12837a;
+    font-weight: bolder; /* Hace el texto más grueso */
+    text-shadow: 1px 1px #fff; /* Agrega una sombra al texto */
+    color: #12837a; /* Establece el color del texto */
     margin-left: 20px; /* Añade un margen para separar el texto del logo */
 }
 
 .subt {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5); /* Establece un fondo semitransparente */
 }
 
 .pie {
-    background-color: #10a89c;
-    color: white;
-    border-top: 1px rgb(165, 47, 198) solid;
+    background-color: #10a89c; /* Establece el color de fondo del pie de página */
+    color: white; /* Establece el color del texto */
+    border-top: 1px rgb(165, 47, 198) solid; /* Agrega un borde superior púrpura sólido */
 }
 
 main {
-    padding-top: 6%;
-    background-color: #10a89b5d;
+    padding-top: 6%; /* Añade un padding superior */
+    background-color: #10a89b5d; /* Establece un color de fondo semitransparente */
 }
 
 footer {
-    padding-top: 5%;
-    background-color: #10a89b5d;
+    padding-top: 5%; /* Añade un padding superior */
+    background-color: #10a89b5d; /* Establece un color de fondo semitransparente */
 }
 
 .foto {
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 1%; /* Añade un margen superior */
+    margin-left: 2%; /* Añade un margen izquierdo */
+    margin-right: 2%; /* Añade un margen derecho */
 }
 
 .hipervinculo {
-    color: white;
-    font-size: 24px;
+    color: white; /* Establece el color del texto */
+    font-size: 24px; /* Establece el tamaño de la fuente */
 }
 
 .logo {
-    border-radius: 52%;
+    border-radius: 52%; /* Establece bordes redondeados */
 }
 
 .articulo {
-    border-radius: 10%;
+    border-radius: 10%; /* Establece bordes redondeados */
 }
 
 .precio {
-    font-style: italic;
-    color: rgb(116, 110, 110);
+    font-style: italic; /* Establece el estilo de fuente en cursiva */
+    color: rgb(116, 110, 110); /* Establece el color del texto */
 }
 
 .descripcion {
-    font-size: 1.8rem;
+    font-size: 1.8rem; /* Establece el tamaño de la fuente */
 }
